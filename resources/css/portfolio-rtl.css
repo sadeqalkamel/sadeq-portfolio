@@ -1,0 +1,131 @@
+/*
+ * Sadeq Portfolio — bilingual typography and Arabic RTL overrides.
+ * Loaded after app.css so the approved design, palette and saved grid rules stay intact.
+ */
+html[lang="ar"] body {
+    font-family: "Tajawal", "Segoe UI", Tahoma, Arial, sans-serif;
+    letter-spacing: 0;
+}
+
+/* Respect page direction, while preserving left-to-right technical content. */
+html[dir="rtl"] .site-shell,
+html[dir="rtl"] .hero-copy,
+html[dir="rtl"] .section-intro,
+html[dir="rtl"] .section-heading,
+html[dir="rtl"] .project-body,
+html[dir="rtl"] .service-card,
+html[dir="rtl"] .contact-panel,
+html[dir="rtl"] .footer {
+    text-align: start;
+}
+
+html[dir="rtl"] .hero h1 {
+    letter-spacing: 0;
+    line-height: 1.18;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+html[dir="rtl"] .hero h2::after {
+    left: auto;
+    right: 0;
+    background: linear-gradient(270deg, var(--purple), transparent);
+}
+
+html[dir="rtl"] .section h2 {
+    line-height: 1.35;
+}
+
+html[dir="rtl"] .hero-copy > p,
+html[dir="rtl"] .section-intro > p,
+html[dir="rtl"] .service-card p,
+html[dir="rtl"] .contact-panel p {
+    line-height: 1.85;
+}
+
+html[dir="rtl"] .code-window,
+html[dir="rtl"] .code-window pre,
+html[dir="rtl"] .code-window code {
+    direction: ltr;
+    text-align: left;
+    unicode-bidi: isolate;
+}
+
+html[dir="rtl"] .code-content pre {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+/* Technology names and numbers are intentionally kept in their original direction. */
+html[dir="rtl"] .skill-symbol,
+html[dir="rtl"] .tags span,
+html[dir="rtl"] .stat-card strong,
+html[dir="rtl"] .step {
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+
+html[dir="rtl"] .stat-card,
+html[dir="rtl"] .skill-pill,
+html[dir="rtl"] .project-card,
+html[dir="rtl"] .process-card {
+    min-width: 0;
+}
+
+html[dir="rtl"] .process-card:not(:last-child)::after {
+    right: auto;
+    left: -28px;
+    content: '⟵';
+}
+
+html[dir="rtl"] .process-art {
+    right: auto;
+    left: 11px;
+}
+
+html[dir="rtl"] .project-float-icon {
+    left: auto;
+    right: 7px;
+}
+
+html[dir="rtl"] .project-modal .modal-note {
+    border-left: 0;
+    border-right: 2px solid #a448fc;
+}
+
+html[dir="rtl"] .modal-close {
+    right: auto;
+    left: 14px;
+}
+
+html[dir="rtl"] .toast {
+    right: auto;
+    left: 24px;
+}
+
+html[dir="rtl"] .direction-arrow {
+    display: inline-block;
+    transform: scaleX(-1);
+}
+
+/* Prevent narrow layouts from overflowing after switching to longer Arabic labels. */
+@media (max-width: 1100px) {
+    html[lang="ar"] .desktop-nav { gap: 12px; }
+    html[lang="ar"] .nav-actions { gap: 10px; }
+    html[lang="ar"] .nav-wrap { gap: 15px; }
+}
+
+@media (max-width: 740px) {
+    html[lang="ar"] .mobile-nav { direction: rtl; }
+    html[lang="ar"] .hero h1 { font-size: clamp(34px, 8vw, 56px); }
+    html[lang="ar"] .hero-copy > p { max-width: 100%; }
+    html[lang="ar"] .code-window { width: 100%; }
+}
+
+@media (max-width: 520px) {
+    html[lang="ar"] .hero h1 { font-size: clamp(32px, 9vw, 48px); }
+    html[lang="ar"] .hero-buttons .btn { white-space: normal; text-align: center; }
+    html[lang="ar"] .contact-panel .btn { white-space: normal; }
+    html[lang="ar"] .mobile-nav a { font-size: 12px; padding: 11px 4px; }
+    html[lang="ar"] .code-content pre { font-size: 10px; }
+}

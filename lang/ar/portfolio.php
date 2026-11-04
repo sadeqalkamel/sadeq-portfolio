@@ -1,0 +1,142 @@
+<?php
+
+return [
+    // روابط التنقل — الإبقاء على المفاتيح السابقة
+    'home' => 'الرئيسية',
+    'about' => 'نبذة عني',
+    'skills' => 'المهارات',
+    'projects' => 'المشاريع',
+    'services' => 'الخدمات',
+    'contact' => 'تواصل معي',
+    'lets_talk' => 'لنتحدث',
+
+    // النصوص المشتركة — الإبقاء على المفاتيح السابقة
+    'hello' => 'مرحبًا، أنا',
+    'job_title' => 'مطور Laravel',
+    'view_work' => 'استعرض أعمالي',
+    'contact_me' => 'تواصل معي',
+    'about_me' => 'من أنا',
+    'my_skills' => 'مهاراتي',
+    'featured_projects' => 'المشاريع المميزة',
+    'my_services' => 'خدماتي',
+
+    'meta' => [
+        'title' => 'صادق الكامل — مطور Laravel',
+        'description' => 'تعرّف على أعمال صادق الكامل ومهاراته ومشاريعه وخدماته في تطوير مواقع الويب.',
+    ],
+
+    'hero' => [
+        'greeting' => 'مرحبًا، أنا',
+        'first_name' => 'صادق',
+        'last_name' => 'الكامل',
+        'description' => 'أطوّر تطبيقات ويب حديثة وقابلة للتوسع وعالية الأداء، مع الاهتمام بجودة الكود وتنظيمه.',
+        'scroll_down' => 'مرّر للأسفل',
+        'code_file' => 'developer.js',
+        'code_role' => 'مطور Laravel',
+        'code_focus' => 'تطبيقات الويب',
+        'code_passion' => 'بناء تطبيقات ويب متميزة',
+        'code_comment' => 'لنصنع معًا شيئًا رائعًا',
+    ],
+
+    'about_section' => [
+        'eyebrow' => 'نبذة عني',
+        'heading_first' => 'أحوّل الأفكار إلى',
+        'heading_highlight' => 'تجارب رقمية مميزة.',
+        'description' => 'أنا مطور Laravel شغوف بتحويل المشكلات المعقدة إلى حلول بسيطة وجميلة وفعّالة.',
+        'request_cv' => 'اطلب سيرتي الذاتية',
+        'cv_hint' => 'أضف ملف سيرتك الذاتية قبل تفعيل التنزيل',
+        'experience' => 'سنوات الخبرة',
+        'completed_projects' => 'مشاريع مكتملة',
+        'happy_clients' => 'عملاء راضون',
+    ],
+
+    'skills_section' => [
+        'eyebrow' => 'مهاراتي',
+        'heading_first' => 'التقنيات التي',
+        'heading_highlight' => 'أعمل بها',
+        'explore_services' => 'استكشف خدماتي',
+        'backend' => 'تطوير الواجهة الخلفية',
+        'frontend' => 'تطوير الواجهة الأمامية',
+        'tools' => 'الأدوات',
+        'coming_soon' => 'المهارات قريبًا',
+    ],
+
+    'projects_section' => [
+        'eyebrow' => 'المشاريع المميزة',
+        'heading' => 'نماذج من أعمالي',
+        'discuss_project' => 'لنتحدث عن مشروعك',
+        'no_cover' => 'لا توجد صورة للمشروع',
+        'coming_soon' => 'المشاريع قريبًا',
+        'coming_soon_description' => 'ستظهر مشاريعي المميزة هنا قريبًا.',
+        'live_demo' => 'تجربة المشروع',
+        'github' => 'GitHub',
+        'project_info' => 'معلومات المشروع',
+        'details' => 'التفاصيل',
+    ],
+
+    'process_section' => [
+        'eyebrow' => 'كيف أعمل',
+        'heading' => 'مراحل تطوير المشروع',
+        'idea' => 'الفكرة',
+        'idea_description' => 'فهم المشكلة وجمع المتطلبات وتحديد الأهداف.',
+        'design' => 'التصميم',
+        'design_description' => 'التخطيط ورسم الهيكل الأولي وتصميم الحل المناسب.',
+        'develop' => 'البرمجة',
+        'develop_description' => 'كتابة كود نظيف وفعّال وقابل للتوسع.',
+        'deploy' => 'النشر',
+        'deploy_description' => 'اختبار المشروع ونشره وإتاحته للاستخدام.',
+    ],
+
+    'services_section' => [
+        'eyebrow' => 'ما الذي أقدمه',
+        'heading_first' => 'الخدمات التي',
+        'heading_highlight' => 'أقدمها',
+        'laravel_title' => 'تطوير تطبيقات Laravel',
+        'laravel_description' => 'تطوير تطبيقات ويب مخصصة بهندسة برمجية منظمة وقابلة للصيانة.',
+        'responsive_title' => 'مواقع متجاوبة',
+        'responsive_description' => 'واجهات عصرية تعمل بمظهر ممتاز على مختلف الشاشات والأجهزة.',
+        'api_title' => 'واجهات API والتكامل',
+        'api_description' => 'بناء واجهات REST API موثوقة وربط الأنظمة والخدمات ببعضها.',
+        'coming_soon' => 'الخدمات قريبًا',
+    ],
+
+    'contact_section' => [
+        'eyebrow' => 'لنعمل معًا',
+        'heading_first' => 'هل لديك فكرة؟',
+        'heading_highlight' => 'لنجعلها واقعًا.',
+        'description' => 'يسعدني دائمًا التعرف على المشاريع الهادفة والفرص الجديدة.',
+        'start_conversation' => 'ابدأ المحادثة',
+    ],
+
+    'footer' => [
+        'rights' => ':name. جميع الحقوق محفوظة.',
+        'back_to_top' => 'العودة إلى الأعلى',
+    ],
+
+    'ui' => [
+        'main_navigation' => 'التنقل الرئيسي',
+        'mobile_navigation' => 'قائمة التنقل على الهاتف',
+        'open_navigation' => 'فتح قائمة التنقل',
+        'close_navigation' => 'إغلاق قائمة التنقل',
+        'switch_to_arabic' => 'التبديل إلى العربية',
+        'switch_to_english' => 'التبديل إلى الإنجليزية',
+        'toggle_theme' => 'تغيير المظهر',
+        'switch_color_theme' => 'تبديل الوضع الفاتح والداكن',
+        'social_networks' => 'حسابات التواصل الاجتماعي',
+        'github_placeholder' => 'سيُضاف رابط GitHub لاحقًا',
+        'github_hint' => 'يمكن إضافة رابط GitHub لاحقًا',
+        'linkedin_placeholder' => 'سيُضاف رابط LinkedIn لاحقًا',
+        'social_placeholder' => 'يمكن إضافة رابط التواصل لاحقًا',
+        'contact_by_email' => 'التواصل عبر البريد الإلكتروني',
+        'portrait_area' => 'صورة شخصية توضيحية من التصميم المرجعي',
+        'portrait_alt' => 'صورة مؤقتة من التصميم المعتمد، تُستبدل بالصورة الشخصية الحقيقية',
+        'developer_code' => 'مثال توضيحي لكود برمجي',
+        'scroll_down' => 'التمرير للأسفل',
+        'project_preview' => 'معاينة المشروع',
+        'project' => 'المشروع',
+        'project_preview_note' => 'هذا محتوى توضيحي من التصميم المعتمد. أضف مشاريعك الفعلية وروابط الأكواد والتجارب عندما تصبح جاهزة.',
+        'close_dialog' => 'إغلاق النافذة',
+        'got_it' => 'فهمت',
+        'missing_email' => 'أضف بريدك الإلكتروني الحقيقي إلى رابط التواصل قبل نشر الموقع.',
+    ],
+];

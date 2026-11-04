@@ -1,0 +1,142 @@
+<?php
+
+return [
+    // Navigation — existing keys preserved
+    'home' => 'Home',
+    'about' => 'About',
+    'skills' => 'Skills',
+    'projects' => 'Projects',
+    'services' => 'Services',
+    'contact' => 'Contact',
+    'lets_talk' => "Let's Talk",
+
+    // Shared texts — existing keys preserved
+    'hello' => "Hello, I'm",
+    'job_title' => 'Laravel Developer',
+    'view_work' => 'View My Work',
+    'contact_me' => 'Contact Me',
+    'about_me' => 'About Me',
+    'my_skills' => 'My Skills',
+    'featured_projects' => 'Featured Projects',
+    'my_services' => 'My Services',
+
+    'meta' => [
+        'title' => 'Sadeq Alkamel — Laravel Developer',
+        'description' => 'Explore Sadeq Alkamel’s portfolio, skills, projects and web development services.',
+    ],
+
+    'hero' => [
+        'greeting' => "HELLO, I'M",
+        'first_name' => 'Sadeq',
+        'last_name' => 'Alkamel',
+        'description' => 'I build modern, scalable and high-performance web applications with clean code.',
+        'scroll_down' => 'Scroll Down',
+        'code_file' => 'developer.js',
+        'code_role' => 'Laravel Developer',
+        'code_focus' => 'Web Applications',
+        'code_passion' => 'Building amazing web applications',
+        'code_comment' => "Let's build something great together",
+    ],
+
+    'about_section' => [
+        'eyebrow' => 'ABOUT ME',
+        'heading_first' => 'Turning ideas into',
+        'heading_highlight' => 'digital experiences.',
+        'description' => "I'm a passionate Laravel developer who loves turning complex problems into simple, beautiful and efficient solutions.",
+        'request_cv' => 'Request My CV',
+        'cv_hint' => 'Add your CV file before enabling a download',
+        'experience' => 'Years Experience',
+        'completed_projects' => 'Projects Completed',
+        'happy_clients' => 'Happy Clients',
+    ],
+
+    'skills_section' => [
+        'eyebrow' => 'MY SKILLS',
+        'heading_first' => 'Technologies I',
+        'heading_highlight' => 'work with',
+        'explore_services' => 'Explore My Services',
+        'backend' => 'Backend',
+        'frontend' => 'Frontend',
+        'tools' => 'Tools',
+        'coming_soon' => 'Skills Coming Soon',
+    ],
+
+    'projects_section' => [
+        'eyebrow' => 'FEATURED PROJECTS',
+        'heading' => 'Some things I’ve built',
+        'discuss_project' => 'Discuss a Project',
+        'no_cover' => 'No cover image',
+        'coming_soon' => 'Projects Coming Soon',
+        'coming_soon_description' => 'My featured projects will appear here soon.',
+        'live_demo' => 'Live Demo',
+        'github' => 'GitHub',
+        'project_info' => 'Project Info',
+        'details' => 'Details',
+    ],
+
+    'process_section' => [
+        'eyebrow' => 'HOW I BUILD',
+        'heading' => 'My development process',
+        'idea' => 'IDEA',
+        'idea_description' => 'Understanding the problem and gathering requirements.',
+        'design' => 'DESIGN',
+        'design_description' => 'Planning, wireframing and designing the solution.',
+        'develop' => 'DEVELOP',
+        'develop_description' => 'Writing clean, efficient and scalable code.',
+        'deploy' => 'DEPLOY',
+        'deploy_description' => 'Testing, deploying and making it live.',
+    ],
+
+    'services_section' => [
+        'eyebrow' => 'WHAT I DO',
+        'heading_first' => 'My',
+        'heading_highlight' => 'services',
+        'laravel_title' => 'Laravel Development',
+        'laravel_description' => 'Custom web applications built with clean, maintainable architecture.',
+        'responsive_title' => 'Responsive Websites',
+        'responsive_description' => 'Modern interfaces that look and work beautifully on every screen.',
+        'api_title' => 'APIs & Integration',
+        'api_description' => 'Reliable REST APIs and integrations that connect your services.',
+        'coming_soon' => 'Services Coming Soon',
+    ],
+
+    'contact_section' => [
+        'eyebrow' => "LET'S WORK TOGETHER",
+        'heading_first' => 'Have an idea?',
+        'heading_highlight' => 'Let’s build it.',
+        'description' => "I'm always interested in hearing about meaningful projects and new opportunities.",
+        'start_conversation' => 'Start a Conversation',
+    ],
+
+    'footer' => [
+        'rights' => ':name. All rights reserved.',
+        'back_to_top' => 'Back to top',
+    ],
+
+    'ui' => [
+        'main_navigation' => 'Main navigation',
+        'mobile_navigation' => 'Mobile navigation',
+        'open_navigation' => 'Open navigation',
+        'close_navigation' => 'Close navigation',
+        'switch_to_arabic' => 'Switch to Arabic',
+        'switch_to_english' => 'Switch to English',
+        'toggle_theme' => 'Toggle theme',
+        'switch_color_theme' => 'Switch color theme',
+        'social_networks' => 'Social networks',
+        'github_placeholder' => 'GitHub link to be added',
+        'github_hint' => 'GitHub link can be added later',
+        'linkedin_placeholder' => 'LinkedIn link to be added',
+        'social_placeholder' => 'Social link can be added later',
+        'contact_by_email' => 'Contact by email',
+        'portrait_area' => 'Illustrative profile picture from the reference design',
+        'portrait_alt' => 'Placeholder portrait from the approved design — replace with your own photo',
+        'developer_code' => 'Illustrative developer code',
+        'scroll_down' => 'Scroll down',
+        'project_preview' => 'PROJECT PREVIEW',
+        'project' => 'Project',
+        'project_preview_note' => 'This is illustrative content from the approved reference. Add your actual project, source code and demo URLs when you are ready.',
+        'close_dialog' => 'Close dialog',
+        'got_it' => 'Got it',
+        'missing_email' => 'Add your real email address to the Contact link before publishing.',
+    ],
+];
